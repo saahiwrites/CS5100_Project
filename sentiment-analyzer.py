@@ -258,12 +258,10 @@ class SentimentAnalyzer:
             
         return results
     
-    # For production code, uncomment this method:
     # def _get_transformer_sentiment(self, text: str) -> Dict[str, float]:
     #     """
     #     Get sentiment analysis from transformer model.
     #     """
-    #     # For longer texts, split and analyze in chunks
     #     chunks = self._split_into_chunks(text)
     #     results = []
     #     
