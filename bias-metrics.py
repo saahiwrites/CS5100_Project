@@ -37,8 +37,6 @@ class BiasMetrics:
         Returns:
             Dictionary mapping categories to keyword dictionaries
         """
-        # This is a minimal example - a real implementation would load
-        # from comprehensive files with more entries and nuanced scoring
         return {
             "gender": {
                 "emotional": 0.7, "rational": 0.7, "bossy": 0.8, "assertive": 0.7,
