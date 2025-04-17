@@ -1,4 +1,8 @@
 """
+Project tested mainly on OpenAIs model, 
+LLM interface modified to accomodate different use of models and understanding for future purposes.
+"""
+"""
 LLM interface for interacting with language models.
 This module provides a unified interface for interacting with
 various LLM providers, including OpenAI, Anthropic, and others.
